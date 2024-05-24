@@ -1,0 +1,16 @@
+{
+  "name": "s2dr3-demo-fullscreen",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prettier": "npx prettier src --check",
+    "lint": "npx eslint src",
+    "format": "npm run prettier -- --write && npm run lint -- --fix",
+    "test": "npm run prettier && npm run lint"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "eslint": "^8.52.0",
+    "prettier-eslint": "^16.1.2"
+  }
+}
