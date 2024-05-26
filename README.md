@@ -4,11 +4,11 @@
 
 S2DR3 demo with full screen
 
-1. Enter your code
-2. Wait for it to load
-3. Press the ENTER key
-
-https://antruc.github.io/s2dr3-demo-fullscreen
+1. Generate your map from the [Google Colab](https://colab.research.google.com/drive/18phbwA1iYG5VDGN2WjK7WrWYi-FdCHJ5#scrollTo=DXlqhQonAAGk)
+2. From the generated link, copy only the last part starting with `?ds`
+3. Go to the [Github site](https://antruc.github.io/s2dr3-demo-fullscreen) and enter your code like `?ds=UA-T36TWR-20240505-u0a99bc9#15/45.4440/33.7170`
+4. Wait for it to load
+5. Press the ENTER key to go into full screen
 
 # License
 
