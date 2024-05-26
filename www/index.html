@@ -124,12 +124,19 @@
 
     <!--<script src='s2dr2datasets11.js'></script>-->
     <script>
-      const index = window.location
-      //open prompt and ask for code
-      if (!index.hash) {
-        result = window.prompt('Code:')
-        //change location
-        location.assign(index + result)
+      if (!location.search) {
+        //open prompt and ask for code
+        result = window.prompt(
+          'Code:',
+          '?ds=UA-T36TWR-20240505-u0a99bc9#15/45.4440/33.7170'
+        )
+        if (result) {
+          //change location
+          location.assign(location.href + result)
+        } else {
+          window.alert('You need to enter a valid code')
+          location.reload()
+        }
       }
 
       const params = new URLSearchParams(window.location.search)
